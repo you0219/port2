@@ -6,41 +6,38 @@
   <title>ヨウのポートフォリオ</title>
 
   <style>
-    /* ページ全体の設定 */
     body {
-      background-color: #6A0DAD; /* 背景を紫色に */
-      color: #FFFFFF;            /* 文字の色を白に */
-      font-family: "MS Pゴシック", sans-serif; /* 少し懐かしい感じのフォント */
+      background-color: #6A0DAD; 
+      color: #FFFFFF; 
     }
 
-    /* コンテンツを囲む枠 */
     .container {
-      width: 750px; /* 横幅を指定 */
-      margin: 20px auto; /* ページの中で中央に配置 */
+      width: 750px; 
+      margin: 20px auto; 
       padding: 25px;
-      border: 5px solid yellow; /* 黄色い実線の枠 */
+      border: 20px solid yellow; 
     }
 
-    /* 見出しのデザイン */
+
     h1 {
-      color: lightgreen; /* 見出しの色を黄緑に */
-      text-align: center; /* 中央揃え */
+      color: lightgreen; 
+      text-align: center; 
     }
 
     h2 {
-      border-bottom: 2px dotted white; /* 白い点線の下線 */
+      border-bottom: 2px dotted white; 
     }
 
-    /* リンクの文字色 */
+   
     a {
-      color: cyan; /* 水色っぽくして目立たせる */
+      color: cyan; 
     }
 
-    /* ボタンのデザイン */
+   
     button {
-      padding: 8px 15px; /* ボタンの余白 */
-      font-size: 16px;     /* 文字の大きさ */
-      cursor: pointer;     /* マウスを乗せると指マークになる */
+      padding: 10px 15px;
+      font-size: 15px; 
+
     }
   </style>
 
@@ -57,7 +54,7 @@
       油そば専門店「春日亭」をこよなく愛し、来店ポイントランキング全国1位を獲得した実績もあります。
     </p>
 
-    <button id="alertButton">あいさつ！</button>
+    <button id="alertButton">閲覧ありがとう！</button>
     
     <h3>Profile</h3>
     <ul>
@@ -80,13 +77,11 @@
     </ul>
 
   </div> <script>
-    // id="alertButton" という名前のボタン要素を取得します
     const button = document.getElementById('alertButton');
 
-    // ボタンがクリックされたら、{}の中の処理を実行します
     button.addEventListener('click', function() {
       // ポップアップでメッセージを表示
-      alert('ホームページへようこそ！');
+      alert('サイトへようこそ！');
     });
   </script>
 
