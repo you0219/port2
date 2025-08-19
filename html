@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ヨウのポートフォリオ</title>
+
+  <style>
+    /* ページ全体の設定 */
+    body {
+      background-color: #6A0DAD; /* 背景を紫色に */
+      color: #FFFFFF;            /* 文字の色を白に */
+      font-family: "MS Pゴシック", sans-serif; /* 少し懐かしい感じのフォント */
+    }
+
+    /* コンテンツを囲む枠 */
+    .container {
+      width: 750px; /* 横幅を指定 */
+      margin: 20px auto; /* ページの中で中央に配置 */
+      padding: 25px;
+      border: 5px solid yellow; /* 黄色い実線の枠 */
+    }
+
+    /* 見出しのデザイン */
+    h1 {
+      color: lightgreen; /* 見出しの色を黄緑に */
+      text-align: center; /* 中央揃え */
+    }
+
+    h2 {
+      border-bottom: 2px dotted white; /* 白い点線の下線 */
+    }
+
+    /* リンクの文字色 */
+    a {
+      color: cyan; /* 水色っぽくして目立たせる */
+    }
+
+    /* ボタンのデザイン */
+    button {
+      padding: 8px 15px; /* ボタンの余白 */
+      font-size: 16px;     /* 文字の大きさ */
+      cursor: pointer;     /* マウスを乗せると指マークになる */
+    }
+  </style>
+
+</head>
+<body>
+
+  <div class="container">
+    <h1>you0219</h1>
+    
+    <h2>紹介</h2>
+    <p>
+      バイク旅が趣味で、旅の様子を動画撮影して公開しています。<br>
+      YouTubeではツーリングやキャンプ、グルメをテーマに動画を投稿中。<br>
+      油そば専門店「春日亭」をこよなく愛し、来店ポイントランキング全国1位を獲得した実績もあります。
+    </p>
+
+    <button id="alertButton">あいさつ！</button>
+    
+    <h3>Profile</h3>
+    <ul>
+      <li>ヨウ</li>
+      <li>東京都</li>
+      <li>動画制作、バイク旅の記録、LINEスタンプ作成</li>
+    </ul>
+    
+    <h3>Works</h3>
+    <p>制作物紹介</p>
+    <ul>
+      <li><a href="https://www.youtube.com/@youchannuu_you" target="_blank">YouTubeチャンネル（よーちゃぬー）</a></li>
+      <li>
+        作った作品
+        <ul>
+          <li><a href="https://www.youtube.com/playlist?list=PLWYTAi-OKa29U0RmrwbQxeLYdWKoOgZFt" target="_blank">北海道ツーリング旅動画</a></li>
+          <li><a href="https://line.me/S/sticker/30340401" target="_blank">LINEスタンプ</a></li>
+        </ul>
+      </li>
+    </ul>
+
+  </div> <script>
+    // id="alertButton" という名前のボタン要素を取得します
+    const button = document.getElementById('alertButton');
+
+    // ボタンがクリックされたら、{}の中の処理を実行します
+    button.addEventListener('click', function() {
+      // ポップアップでメッセージを表示
+      alert('ホームページへようこそ！');
+    });
+  </script>
+
+</body>
+</html>
